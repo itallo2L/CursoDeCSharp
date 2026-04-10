@@ -1,0 +1,55 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector" Version="6.0.4" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
+    <PackageReference Include="xunit" Version="2.9.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="3.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Exercicio01\Exercicio01.csproj" />
+    <ProjectReference Include="..\Exercicio02\Exercicio03.csproj" />
+    <ProjectReference Include="..\Exercicio04\Exercicio04.csproj" />
+    <ProjectReference Include="..\Exercicio05\Exercicio05.csproj" />
+    <ProjectReference Include="..\Exercicio1.1\Exercicio1_1.csproj" />
+    <ProjectReference Include="..\Exercicio1.2\Exercicio1_2.csproj" />
+    <ProjectReference Include="..\Exercicio2.1\Exercicio2_1.csproj" />
+    <ProjectReference Include="..\Exercicio2.2\Exercicio2.2.csproj" />
+    <ProjectReference Include="..\Exercicio3.1\Exercicio3_1.csproj" />
+    <ProjectReference Include="..\Exercicio3.2\Exercicio3_2.csproj" />
+    <ProjectReference Include="..\ExercicioCondicional01\ExercicioCondicional01.csproj" />
+    <ProjectReference Include="..\ExercicioCondicional02\ExercicioCondicional02.csproj" />
+    <ProjectReference Include="..\ExercicioCondicional03\ExercicioCondicional03.csproj" />
+    <ProjectReference Include="..\ExercicioCondicional04\ExercicioCondicional04.csproj" />
+    <ProjectReference Include="..\ExercicioCondicional06\ExercicioCondicional06.csproj" />
+    <ProjectReference Include="..\ExercicioCondicional07\ExercicioCondicional07.csproj" />
+    <ProjectReference Include="..\ExercicioCondicional08\ExercicioCondicional08.csproj" />
+    <ProjectReference Include="..\ExercicioDoisSec04\ExercicioDoisSec04.csproj" />
+    <ProjectReference Include="..\ExercicioFixacaoMembrosEstaticos\ExercicioFixacaoMembrosEstaticos.csproj" />
+    <ProjectReference Include="..\ExercicioFor01\ExercicioFor01.csproj" />
+    <ProjectReference Include="..\ExercicioFor03\ExercicioFor03.csproj" />
+    <ProjectReference Include="..\ExercicioFor04\ExercicioFor04.csproj" />
+    <ProjectReference Include="..\ExercicioFor05\ExercicioFor05.csproj" />
+    <ProjectReference Include="..\ExercicioFor06\ExercicioFor06.csproj" />
+    <ProjectReference Include="..\ExercicioFor07\ExercicioFor07.csproj" />
+    <ProjectReference Include="..\ExercicioTresSec04\ExercicioTresSec04.csproj" />
+    <ProjectReference Include="..\ExercicioUmSec04\ExercicioUmSec04.csproj" />
+    <ProjectReference Include="..\ExercicioWhileDois\ExercicioWhileDois.csproj" />
+    <ProjectReference Include="..\ExercicioWhileTres\ExercicioWhileTres.csproj" />
+    <ProjectReference Include="..\PrimeiroExercicioSecao04\PrimeiroExercicioSecao04.csproj" />
+    <ProjectReference Include="..\SegundoExercicioSecao04\SegundoExercicioSecao04.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+</Project>
