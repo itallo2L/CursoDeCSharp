@@ -16,8 +16,8 @@ namespace Exercicio2_1
 
         public Produto ObterProdutoPorCodigo()
         {
-            List<Produto> listaDeProdutos = new List<Produto>()
-            {
+            List<Produto> listaDeProdutos =
+            [
                 new()
                 {
                     Codigo = 1,
@@ -48,7 +48,7 @@ namespace Exercicio2_1
                     Especificacao = "Refrigerante",
                     Preco = 1.50
                 }
-            };
+            ];
 
             return listaDeProdutos[Codigo - 1];
         }

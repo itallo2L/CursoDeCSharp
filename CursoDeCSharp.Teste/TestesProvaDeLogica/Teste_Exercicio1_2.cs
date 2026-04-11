@@ -1,4 +1,4 @@
-﻿using Exercicio1_2;
+﻿using CursoDeCSharp.Exercicios.ProvaDeLogica;
 
 namespace CursoDeCSharp.Teste.TestesProvaDeLogica
 {
@@ -38,6 +38,7 @@ namespace CursoDeCSharp.Teste.TestesProvaDeLogica
         #endregion;
 
         #region Program1_2;
+        const string CODIGO_DO_EXERCICIO = "2\n";
 
         [Theory]
         [InlineData("3.00", "28.2743")]
@@ -49,9 +50,10 @@ namespace CursoDeCSharp.Teste.TestesProvaDeLogica
         {
             //Arrange
             var retornoEsperado = $"A={valorEsperado}";
+            var entradaCompleta = $"{CODIGO_DO_EXERCICIO}{entradaDeDados}";
 
             //Act
-            var retornoNaTela = ExecutarPrograma(entradaDeDados, Program.Main);
+            var retornoNaTela = ExecutarPrograma(entradaCompleta, Program.Main);
 
             //Assert
             Assert.Contains(retornoEsperado, retornoNaTela);
@@ -61,11 +63,11 @@ namespace CursoDeCSharp.Teste.TestesProvaDeLogica
         public void Program1_2_QuandoRaioNaoTiverPreenchido_DeveRetornarZero()
         {
             //Arrange
-            const string Raio = "00.00";
+            const string Entrada = $"{CODIGO_DO_EXERCICIO}00.00";
             const string RetornoEsperado = $"A=0.0000";
 
             //Act
-            var retornoNaTela = ExecutarPrograma(Raio, Program.Main);
+            var retornoNaTela = ExecutarPrograma(Entrada, Program.Main);
 
             //Assert
             Assert.Contains(RetornoEsperado, retornoNaTela);

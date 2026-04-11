@@ -1,4 +1,4 @@
-﻿using Exercicio1_1;
+﻿using CursoDeCSharp.Exercicios.ProvaDeLogica;
 
 namespace CursoDeCSharp.Teste.TestesProvaDeLogica
 {
@@ -47,21 +47,23 @@ namespace CursoDeCSharp.Teste.TestesProvaDeLogica
         #endregion;
 
         #region Program1_1;
+        const string CODIGO_DO_EXERCICIO = "1\n";
 
         [Theory]
         [InlineData("12 5 15.00\n13 7 10.00\n", "145.00")] //Cada \n é lido como "Enter"
         [InlineData("5 12 43.70\n2 3 2.99\n", "533.37")]
         [InlineData("9 1 34.59\n8 2 112.99\n", "260.57")]
         [InlineData("6 100 0.98\n7 4 7.50\n", "128.00")]
-        public void Exercicio1_1_QuandoTodosOsCamposEstiveremDevidamentePreenchidos_DeveRetornarValorAPagar(string entradaDeDados, string valorEsperado)
+        public void Exercicio1_1_QuandoSelecionarOpcao1_DeveRetornarValorCorreto(string entradaDeDados, string valorEsperado)
         {
-            //Arrange
+            // Arrange
             var retornoEsperado = $"VALOR A PAGAR: R$ {valorEsperado}";
+            var entradaCompleta = $"{CODIGO_DO_EXERCICIO}{entradaDeDados}";
 
-            //Act
-            var retornoNaTela = ExecutarPrograma(entradaDeDados, Program.Main);
+            // Act
+            var retornoNaTela = ExecutarPrograma(entradaCompleta, Program.Main);
 
-            //Assert
+            // Assert
             Assert.Contains(retornoEsperado, retornoNaTela);
         }
 
@@ -75,9 +77,10 @@ namespace CursoDeCSharp.Teste.TestesProvaDeLogica
         {
             //Arrange
             var retornoEsperado = $"VALOR A PAGAR: R$ {valorEsperado}";
+            var entradaCompleta = $"{CODIGO_DO_EXERCICIO}{entradaDeDados}";
 
             //Act
-            var retornoNaTela = ExecutarPrograma(entradaDeDados, Program.Main);
+            var retornoNaTela = ExecutarPrograma(entradaCompleta, Program.Main);
 
             //Assert
             Assert.Contains(retornoEsperado, retornoNaTela);
