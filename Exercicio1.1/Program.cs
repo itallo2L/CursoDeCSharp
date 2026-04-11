@@ -23,14 +23,7 @@ namespace Exercicio1_1
             int numeroDePecasDois = int.Parse(valoresPecaDois[1]);
             double valorUnitarioPecaDois = double.Parse(valoresPecaDois[2], CultureInfo.InvariantCulture);
 
-            Console.WriteLine($"VALOR A PAGAR: R$ {CalcularValorAPagar(numeroDePecasUm, numeroDePecasDois, valorUnitarioPecaUm, valorUnitarioPecaDois)}");
-        }
-
-        public static string CalcularValorAPagar(int numeroPecasUm, int numeroPecasDois, double valorUnitarioPecaUm, double valorUnitarioPecaDois)
-        {
-            double valorTotalPecasUm = numeroPecasUm * valorUnitarioPecaUm;
-            double valorTotalPecasDois = numeroPecasDois * valorUnitarioPecaDois;
-            return (valorTotalPecasUm + valorTotalPecasDois).ToString("F2", CultureInfo.InvariantCulture);
+            Console.WriteLine($"VALOR A PAGAR: R$ {CalculadoraDePecas.CalcularValorAPagar(numeroDePecasUm, numeroDePecasDois, valorUnitarioPecaUm, valorUnitarioPecaDois)}");
         }
     }
 }

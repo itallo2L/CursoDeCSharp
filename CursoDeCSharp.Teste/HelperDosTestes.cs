@@ -2,7 +2,7 @@
 {
     public class HelperDosTestes
     {
-        public string ExecutarPrograma(string entrada, Action programa)
+        public static string ExecutarPrograma(string entrada, Action programa)
         {
             using var entradaDeDadosPeloTeclado = new StringReader(entrada);
             using var saidaDeDadosNaTela = new StringWriter();
