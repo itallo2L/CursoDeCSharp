@@ -19,14 +19,12 @@ public class Program
             .OrderBy(e => e.Nome)
             .ToList();
 
-        Console.WriteLine("=== LISTA DE EXERCÍCIOS ===");
+        Console.WriteLine("=============================================\n");
 
         for (int i = 0; i < exercicios.Count; i++)
-        {
             Console.WriteLine($"{i + 1} - {exercicios[i].Nome}");
-        }
 
-        Console.Write("\nDigite o código do exercício: ");
+        Console.WriteLine("\n=== DIGITE O CÓDIGO DO EXERCÍCIO ESPERADO ===");
         var escolha = int.Parse(Console.ReadLine()!);
 
         if (!Console.IsOutputRedirected)
