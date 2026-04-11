@@ -36,11 +36,6 @@
     <Project Path="ExercicioTresSec04/ExercicioTresSec04.csproj" Id="7c10c392-554a-49c1-a399-1ac95a589a3d" />
     <Project Path="ExercicioUmSec04/ExercicioUmSec04.csproj" Id="691834e1-dd14-4235-bc77-96e5ab01105a" />
   </Folder>
-  <Folder Name="/ProvaDeLogica/">
-    <Project Path="Exercicio2.2/Exercicio2.2.csproj" />
-    <Project Path="Exercicio3.1/Exercicio3_1.csproj" />
-    <Project Path="Exercicio3.2/Exercicio3_2.csproj" Id="ae7b2c1e-de60-4e48-a0f9-3455ffe7b570" />
-  </Folder>
   <Project Path="CursoDeCSharp.Exercicios/CursoDeCSharp.Exercicios.csproj" Id="b8c84a15-855f-4e65-97e8-373c46d0e35f" />
   <Project Path="CursoDeCSharp.Teste/CursoDeCSharp.Teste.csproj" Id="af9c096a-eb2f-4a52-9499-474ff1c07bab" />
 </Solution>
