@@ -1,21 +1,4 @@
 <Solution>
-  <Folder Name="/ExercicioEstruturaFor/">
-    <Project Path="ExercicioFor01/ExercicioFor01.csproj" Id="de9841c3-684b-46d4-a412-1a2051dee523" />
-    <Project Path="ExercicioFor03/ExercicioFor03.csproj" Id="5aa29e15-eb57-4b17-b0ab-d433bdbef45b" />
-    <Project Path="ExercicioFor04/ExercicioFor04.csproj" Id="ddb508dc-46ee-4acf-b843-8e140234214a" />
-    <Project Path="ExercicioFor05/ExercicioFor05.csproj" Id="2d973e4b-373f-4f79-a9c9-85af7a66b986" />
-    <Project Path="ExercicioFor06/ExercicioFor06.csproj" Id="a87b6dc7-4091-4c52-a479-eb5bbda518d3" />
-    <Project Path="ExercicioFor07/ExercicioFor07.csproj" Id="5f8dc3cf-742c-4416-990c-ca314f183f16" />
-  </Folder>
-  <Folder Name="/ExerciciosEstruturaCondicional/">
-    <Project Path="ExercicioCondicional01/ExercicioCondicional01.csproj" Id="46418499-4310-468d-872a-7dae1e5c5dc0" />
-    <Project Path="ExercicioCondicional02/ExercicioCondicional02.csproj" Id="f278aac7-f6a7-456f-8f7f-4d8e1a718829" />
-    <Project Path="ExercicioCondicional03/ExercicioCondicional03.csproj" Id="ad0ae296-49ab-4ecb-8833-8c0fc06e241c" />
-    <Project Path="ExercicioCondicional04/ExercicioCondicional04.csproj" Id="5d0ce37d-d280-4173-916f-0208d4ddc168" />
-    <Project Path="ExercicioCondicional06/ExercicioCondicional06.csproj" Id="27ed5dbb-1b53-4adf-86b4-b2cc55c47793" />
-    <Project Path="ExercicioCondicional07/ExercicioCondicional07.csproj" Id="acb1fe80-fda1-4ec1-96e0-459f7910df2c" />
-    <Project Path="ExercicioCondicional08/ExercicioCondicional08.csproj" Id="25cc2abf-bddc-40f1-8138-49f1151edf9e" />
-  </Folder>
   <Folder Name="/ExerciciosEstruturaSequencial/">
     <Project Path="Exercicio01/Exercicio01.csproj" Id="7d5e7e25-86ae-448d-aaa9-292c67e18d6a" />
     <Project Path="Exercicio02/Exercicio03.csproj" Id="85ea3c51-eefa-46ea-b1ff-98510b3108db" />
