@@ -8,7 +8,7 @@ namespace CursoDeCSharp.Exercicios.ExerciciosEstruturaSequencial
 
         public object Executar()
         {
-            Console.WriteLine("Este programa lê dois valores inteiros e mostra a soma desses números" +
+            Console.WriteLine($"=== {Nome} ===\nEste programa lê dois valores inteiros e mostra a soma desses números" +
                 "\nDigite dois valores inteiros (um por linha):");
             int primeiroValor = int.Parse(Console.ReadLine());
             int segundoValor = int.Parse(Console.ReadLine());

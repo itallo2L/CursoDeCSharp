@@ -9,7 +9,7 @@ namespace CursoDeCSharp.Exercicios.ExerciciosSecao04
 
         public object Executar()
         {
-            Console.WriteLine("Este programa calcula o valor a pagar em reais para compra de dólares com IOF" +
+            Console.WriteLine($"=== {Nome} ===\nEste programa calcula o valor a pagar em reais para compra de dólares com IOF" +
                 "\nDigite a cotação do dólar e a quantidade de dólares a comprar (um por linha):");
             Console.Write("Qual é a cotação do dólar? ");
             double cotacaoDoDolar = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);

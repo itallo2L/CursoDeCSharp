@@ -1,24 +1,4 @@
 <Solution>
-  <Folder Name="/ExerciciosEstruturaSequencial/">
-    <Project Path="Exercicio01/Exercicio01.csproj" Id="7d5e7e25-86ae-448d-aaa9-292c67e18d6a" />
-    <Project Path="Exercicio02/Exercicio03.csproj" Id="85ea3c51-eefa-46ea-b1ff-98510b3108db" />
-    <Project Path="Exercicio04/Exercicio04.csproj" Id="5b5d1993-2461-4c45-ba28-b6fe0d3dd808" />
-    <Project Path="Exercicio05/Exercicio05.csproj" Id="aca2ac53-d936-4f80-ae5a-edb7cd4c6480" />
-  </Folder>
-  <Folder Name="/ExerciciosEstruturaWhile/">
-    <Project Path="ExercicioWhileDois/ExercicioWhileDois.csproj" Id="7b5cc6d1-e9e1-40e6-8e63-e91c41cd5fee" />
-    <Project Path="ExercicioWhileTres/ExercicioWhileTres.csproj" Id="4b368a32-f13b-4f86-be90-53004224eac8" />
-  </Folder>
-  <Folder Name="/ExerciciosSecao04/">
-    <Project Path="ExercicioFixacaoMembrosEstaticos/ExercicioFixacaoMembrosEstaticos.csproj" Id="91cb474e-3b10-4278-a5b1-207b3dbbedb0" />
-    <Project Path="PrimeiroExercicioSecao04/PrimeiroExercicioSecao04.csproj" Id="9946435d-07f4-48fd-a3f0-e65398413468" />
-    <Project Path="SegundoExercicioSecao04/SegundoExercicioSecao04.csproj" Id="76a6f119-0ca2-4cc0-bb6d-828ad6bc2f3b" />
-  </Folder>
-  <Folder Name="/ExerciciosSecao04/ClassesAtributosMetodosEstaticos/">
-    <Project Path="ExercicioDoisSec04/ExercicioDoisSec04.csproj" Id="3009fbe0-396c-4645-a767-069300dd1be4" />
-    <Project Path="ExercicioTresSec04/ExercicioTresSec04.csproj" Id="7c10c392-554a-49c1-a399-1ac95a589a3d" />
-    <Project Path="ExercicioUmSec04/ExercicioUmSec04.csproj" Id="691834e1-dd14-4235-bc77-96e5ab01105a" />
-  </Folder>
   <Project Path="CursoDeCSharp.Exercicios/CursoDeCSharp.Exercicios.csproj" Id="b8c84a15-855f-4e65-97e8-373c46d0e35f" />
   <Project Path="CursoDeCSharp.Teste/CursoDeCSharp.Teste.csproj" Id="af9c096a-eb2f-4a52-9499-474ff1c07bab" />
 </Solution>

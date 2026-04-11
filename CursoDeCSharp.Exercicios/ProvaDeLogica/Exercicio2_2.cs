@@ -12,7 +12,7 @@ namespace CursoDeCSharp.Exercicios.ProvaDeLogica
 
         public object Executar()
         {
-            Console.WriteLine("Este programa calcula as raízes de uma equação de segundo grau" +
+            Console.WriteLine($"=== {Nome} ===\nEste programa calcula as raízes de uma equação de segundo grau" +
                 "\nDigite três números na mesma linha (a, b e c):");
             string[] valoresABC = Console.ReadLine().Split(' ');
             return CalcularEquacaoDeSegundoGrau(valoresABC);

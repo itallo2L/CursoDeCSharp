@@ -10,8 +10,8 @@ namespace CursoDeCSharp.Exercicios.ProvaDeLogica
 
         public object Executar()
         {
-            Console.WriteLine("Este programa valida uma senha repetidamente até que seja correta" +
-                "\nDigite uma senha (repetidamente até acertar):");
+            Console.WriteLine($"=== {Nome} ===\nEste programa valida uma senha repetidamente até que seja correta" +
+                "\nDigite uma senha (repetidamente até acertar):" );
             int senhaInserida = int.Parse(Console.ReadLine());
             return VerificarSeEhSenhaValida(senhaInserida);
         }

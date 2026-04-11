@@ -8,7 +8,7 @@ namespace CursoDeCSharp.Exercicios.ExercicioEstruturaFor
 
         public object Executar()
         {
-            Console.WriteLine("Este programa calcula o fatorial de um número" +
+            Console.WriteLine($"=== {Nome} ===\nEste programa calcula o fatorial de um número" +
                 "\nDigite um número inteiro positivo:");
             int entrada = int.Parse(Console.ReadLine());
             

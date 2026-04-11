@@ -9,7 +9,7 @@ namespace CursoDeCSharp.Exercicios.ExerciciosEstruturaWhile
 
         public object Executar()
         {
-            Console.WriteLine("Este programa lê coordenadas (X, Y) e mostra o quadrante de cada ponto" +
+            Console.WriteLine($"=== {Nome} ===\nEste programa lê coordenadas (X, Y) e mostra o quadrante de cada ponto" +
                 "\nDigite coordenadas X e Y separados por espaço (termine quando uma delas for 0):");
             string[] valores = ObterEntrada();
             int x = ObterValorNoArray(valores, 0);

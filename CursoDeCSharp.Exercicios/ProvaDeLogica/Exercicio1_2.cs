@@ -10,7 +10,7 @@ namespace CursoDeCSharp.Exercicios.ProvaDeLogica
 
         public object Executar()
         {
-            Console.WriteLine("Este programa calcula a área de um círculo" +
+            Console.WriteLine($"=== {Nome} ===\nEste programa calcula a área de um círculo" +
                 "\nDigite o valor do raio do círculo:");
             string entrada = Console.ReadLine();
             double raio = double.Parse(entrada, CultureInfo.InvariantCulture);

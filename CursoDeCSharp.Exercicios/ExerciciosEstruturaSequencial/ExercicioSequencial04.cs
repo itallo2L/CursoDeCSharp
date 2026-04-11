@@ -10,7 +10,7 @@ namespace CursoDeCSharp.Exercicios.ExerciciosEstruturaSequencial
 
         public object Executar()
         {
-            Console.WriteLine("Este programa calcula áreas de várias formas geométricas: triângulo, círculo, trapézio, quadrado e retângulo" +
+            Console.WriteLine($"=== {Nome} ===\nEste programa calcula áreas de várias formas geométricas: triângulo, círculo, trapézio, quadrado e retângulo" +
                 "\nDigite três valores (A, B e C) separados por espaços:");
             const double Pi = 3.14159;
             string[] arrayDeValores = Console.ReadLine().Split(' ');

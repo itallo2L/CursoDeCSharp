@@ -12,7 +12,7 @@ namespace CursoDeCSharp.Exercicios.ExerciciosEstruturaCondicional
 
         public object Executar()
         {
-            Console.WriteLine("Este programa calcula o imposto de renda baseado em faixas de salário" +
+            Console.WriteLine($"=== {Nome} ===\nEste programa calcula o imposto de renda baseado em faixas de salário" +
                 "\nDigite o salário com duas casas decimais:");
             const double OitoPorCento = 0.08 * 1000.00;
             const double DezoitoPorCento = 0.18 * 1500.00;

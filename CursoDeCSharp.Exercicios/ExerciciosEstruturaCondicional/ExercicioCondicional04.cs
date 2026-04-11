@@ -8,7 +8,7 @@ namespace CursoDeCSharp.Exercicios.ExerciciosEstruturaCondicional
 
         public object Executar()
         {
-            Console.WriteLine("Este programa calcula a duração de um jogo (pode começar e terminar em dias diferentes)" +
+            Console.WriteLine($"=== {Nome} ===\nEste programa calcula a duração de um jogo (pode começar e terminar em dias diferentes)" +
                 "\nDigite a hora inicial e hora final separadas por espaço:");
             string[] valoresEmString = Console.ReadLine().Split(' ');
             int horaInicial = int.Parse(valoresEmString[0]);

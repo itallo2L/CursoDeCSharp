@@ -11,7 +11,7 @@ namespace CursoDeCSharp.Exercicios.ExerciciosEstruturaCondicional
 
         public object Executar()
         {
-            Console.WriteLine("Este programa determina o quadrante ou eixo de um ponto em um plano cartesiano" +
+            Console.WriteLine($"=== {Nome} ===\nEste programa determina o quadrante ou eixo de um ponto em um plano cartesiano" +
                 "\nDigite dois valores com uma casa decimal separados por espaço (coordenadas x e y):");
             string[] valores = Console.ReadLine().Split(' ');
             double x = Math.Round(double.Parse(valores[0]), 1);

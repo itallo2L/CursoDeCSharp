@@ -7,7 +7,7 @@ namespace CursoDeCSharp.Exercicios.ExerciciosEstruturaCondicional
 
         public object Executar()
         {
-            Console.WriteLine("Este programa verifica se um número é negativo ou não" +
+            Console.WriteLine($"=== {Nome} ===\nEste programa verifica se um número é negativo ou não" +
                 "\nDigite um número inteiro:");
             int valorInteiro = int.Parse(Console.ReadLine());
 

@@ -9,7 +9,7 @@ namespace CursoDeCSharp.Exercicios.ExerciciosSecao04
 
         public object Executar()
         {
-            Console.WriteLine("Este programa lê dados de dois funcionários e calcula o salário médio" +
+            Console.WriteLine($"=== {Nome} ===\nEste programa lê dados de dois funcionários e calcula o salário médio" +
                 "\nDigite o nome e salário de dois funcionários (um dado por linha):");
             Funcionario funcionarioUm = new Funcionario();
             Funcionario funcionarioDois = new Funcionario();

@@ -10,7 +10,7 @@ namespace CursoDeCSharp.Exercicios.ExerciciosEstruturaSequencial
 
         public object Executar()
         {
-            Console.WriteLine("Este programa calcula o salário de um funcionário" +
+            Console.WriteLine($"=== {Nome} ===\nEste programa calcula o salário de um funcionário" +
                 "\nDigite o número do funcionário, horas trabalhadas e valor por hora (um por linha):");
             int numeroDoFuncionario = int.Parse(Console.ReadLine());
             double horasTrabalhadas = double.Parse(Console.ReadLine());

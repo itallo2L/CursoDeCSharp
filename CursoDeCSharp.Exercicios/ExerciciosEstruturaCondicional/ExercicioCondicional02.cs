@@ -7,7 +7,7 @@ namespace CursoDeCSharp.Exercicios.ExerciciosEstruturaCondicional
 
         public object Executar()
         {
-            Console.WriteLine("Este programa verifica se um número é par ou ímpar" +
+            Console.WriteLine($"=== {Nome} ===\nEste programa verifica se um número é par ou ímpar" +
                 "\nDigite um número inteiro:");
             int numeroInteiro = int.Parse(Console.ReadLine());
             var restoDaDivisao = numeroInteiro % 2;

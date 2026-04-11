@@ -7,7 +7,7 @@ namespace CursoDeCSharp.Exercicios.ExerciciosSecao04
 
         public object Executar()
         {
-            Console.WriteLine("Este programa lê dados de duas pessoas e mostra quem é a mais velha" +
+            Console.WriteLine($"=== {Nome} ===\nEste programa lê dados de duas pessoas e mostra quem é a mais velha" +
                 "\nDigite o nome e idade de duas pessoas (um dado por linha):");
             Pessoa pessoaUm = new Pessoa();
             Pessoa pessoaDois = new Pessoa();

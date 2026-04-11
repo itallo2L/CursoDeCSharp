@@ -7,7 +7,7 @@ namespace CursoDeCSharp.Exercicios.ExercicioEstruturaFor
 
         public object Executar()
         {
-            Console.WriteLine("Este programa calcula e mostra todos os divisores de um número" +
+            Console.WriteLine($"=== {Nome} ===\nEste programa calcula e mostra todos os divisores de um número" +
                 "\nDigite um número inteiro:");
             int entrada = int.Parse(Console.ReadLine());
             

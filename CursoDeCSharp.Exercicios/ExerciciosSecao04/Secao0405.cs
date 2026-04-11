@@ -9,7 +9,7 @@ namespace CursoDeCSharp.Exercicios.ExerciciosSecao04
 
         public object Executar()
         {
-            Console.WriteLine("Este programa lê dados de um aluno e calcula a nota final anual" +
+            Console.WriteLine($"=== {Nome} ===\nEste programa lê dados de um aluno e calcula a nota final anual" +
                 "\nDigite o nome do aluno, depois as três notas (uma por linha):");
             Aluno aluno = new Aluno();
             Console.Write("Nome do aluno: ");

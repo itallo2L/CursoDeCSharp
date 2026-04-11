@@ -16,7 +16,6 @@ public class Program
                      && !t.IsInterface
                      && !t.IsAbstract)
             .Select(t => (IExercicio)Activator.CreateInstance(t)!)
-            .OrderBy(e => e.Nome)
             .ToList();
 
         Console.WriteLine("=============================================\n");

@@ -12,7 +12,7 @@ namespace CursoDeCSharp.Exercicios.ExercicioEstruturaFor
 
         public object Executar()
         {
-            Console.WriteLine("Este programa calcula a média ponderada de conjuntos de três valores" +
+            Console.WriteLine($"=== {Nome} ===\nEste programa calcula a média ponderada de conjuntos de três valores" +
                 "\nDigite a quantidade de casos de teste, depois para cada caso três valores:");
             int entrada = int.Parse(Console.ReadLine());
             

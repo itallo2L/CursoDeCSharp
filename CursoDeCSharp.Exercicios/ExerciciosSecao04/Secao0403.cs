@@ -9,7 +9,7 @@ namespace CursoDeCSharp.Exercicios.ExerciciosSecao04
 
         public object Executar()
         {
-            Console.WriteLine("Este programa calcula área, perímetro e diagonal de um retângulo" +
+            Console.WriteLine($"=== {Nome} ===\nEste programa calcula área, perímetro e diagonal de um retângulo" +
                 "\nDigite a largura e altura do retângulo (um por linha):");
             Retangulo retangulo = new Retangulo();
 
