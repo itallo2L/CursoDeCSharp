@@ -13,6 +13,8 @@ namespace Exercicio05
     {
         public static void Main()
         {
+            Console.WriteLine("Este programa calcula áreas de várias formas geométricas: triângulo, círculo, trapézio, quadrado e retângulo" +
+                "\nDigite três valores (A, B e C) separados por espaços:");
             const double Pi = 3.14159;
             string[] arrayDeValores = Console.ReadLine().Split(' ');
             double A = double.Parse(arrayDeValores[0], CultureInfo.InvariantCulture);

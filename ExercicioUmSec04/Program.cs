@@ -10,8 +10,9 @@ namespace ExercicioUmSec04
     {
         public static void Main()
         {
+            Console.WriteLine("Este programa calcula área, perímetro e diagonal de um retângulo" +
+                "\nDigite a largura e altura do retângulo (um por linha):");
             Retangulo retangulo = new Retangulo();
-            Console.WriteLine("Entre a largura e altura do retângulo:");
 
             string altura = Console.ReadLine();
             string largura = Console.ReadLine();

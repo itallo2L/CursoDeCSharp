@@ -6,6 +6,8 @@
         // Lembrando que, por definição, fatorial de 0 é 1.
         public static void Main()
         {
+            Console.WriteLine("Este programa calcula o fatorial de um número" +
+                "\nDigite um número inteiro positivo:");
             int entrada = int.Parse(Console.ReadLine());
             int fatorial = 1;
 

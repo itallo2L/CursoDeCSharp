@@ -7,6 +7,8 @@
         // menos uma de duas coordenadas for NULA (nesta situação sem escrever mensagem alguma).
         public static void Main()
         {
+            Console.WriteLine("Este programa lê coordenadas (X, Y) e mostra o quadrante de cada ponto" +
+                "\nDigite coordenadas X e Y separadas por espaço (termine quando uma delas for 0):");
             string[] valores = ObterEntrada();
             int x = ObterValorNoArray(valores, 0);
             int y = ObterValorNoArray(valores, 1);

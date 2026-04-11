@@ -5,6 +5,8 @@
     {
         public static void Main()
         {
+            Console.WriteLine("Este programa verifica se um número é negativo ou não" +
+                "\nDigite um número inteiro:");
             int valorInteiro = int.Parse(Console.ReadLine());
 
             if (valorInteiro < 0)

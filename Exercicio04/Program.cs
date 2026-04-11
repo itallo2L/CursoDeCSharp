@@ -9,6 +9,8 @@ namespace Exercicio04
     {
         public static void Main()
         {
+            Console.WriteLine("Este programa calcula o salário de um funcionário" +
+                "\nDigite o número do funcionário, horas trabalhadas e valor por hora (um por linha):");
             int numeroDoFuncionario = int.Parse(Console.ReadLine());
             double horasTrabalhadas = double.Parse(Console.ReadLine());
             double valorDaHora = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);

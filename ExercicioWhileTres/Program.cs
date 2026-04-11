@@ -10,6 +10,8 @@
     {
         public static void Main()
         {
+            Console.WriteLine("Este programa conta abastecimentos por tipo de combustível" +
+                "\nDigite o tipo de combustível (1:Álcool, 2:Gasolina, 3:Diesel, 4:Fim):");
             int contadorAlcool = 0;
             int contadorGasolina = 0;
             int contadorDiesel = 0;

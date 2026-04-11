@@ -8,7 +8,8 @@ namespace Exercicio2_1
     {
         public static void Main()
         {
-            Console.WriteLine("Entrada:");
+            Console.WriteLine("Este programa calcula o valor da conta com base em uma tabela de preços" +
+                "\nDigite o código do item e a quantidade (mesma linha):");
             string entrada = Console.ReadLine();
 
             string[] valoresItem = entrada.Split(' ');

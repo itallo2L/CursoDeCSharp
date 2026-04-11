@@ -6,6 +6,8 @@
         // X, se for o caso.
         public static void Main()
         {
+            Console.WriteLine("Este programa mostra todos os números ímpares de 1 até um valor X" +
+                "\nDigite um número inteiro entre 1 e 1000:");
             int entrada = int.Parse(Console.ReadLine());
 
             for (int i = 1; i <= entrada; i+=2)

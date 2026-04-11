@@ -8,6 +8,8 @@ namespace SegundoExercicioSecao04
     {
         public static void Main()
         {
+            Console.WriteLine("Este programa lê dados de dois funcionários e calcula o salário médio" +
+                "\nDigite o nome e salário de dois funcionários (um dado por linha):");
             Funcionario funcionarioUm = new Funcionario();
             Funcionario funcionarioDois = new Funcionario();
 

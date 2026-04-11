@@ -7,6 +7,8 @@
         // exemplo.
         public static void Main()
         {
+            Console.WriteLine("Este programa mostra N linhas com o número, seu quadrado e seu cubo" +
+                "\nDigite um número inteiro positivo:");
             int entrada = int.Parse(Console.ReadLine());
 
             for (int i = 1; i <= entrada; i++)

@@ -11,6 +11,8 @@ namespace ExercicioTresSec04
     {
         public static void Main()
         {
+            Console.WriteLine("Este programa lê dados de um aluno e calcula a nota final anual" +
+                "\nDigite o nome do aluno, depois as três notas (uma por linha):");
             Aluno aluno = new Aluno();
             Console.Write("Nome do aluno: ");
             aluno.Nome = Console.ReadLine();

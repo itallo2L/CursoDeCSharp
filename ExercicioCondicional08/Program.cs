@@ -13,6 +13,8 @@ namespace ExercicioCondicional08
 
         public static void Main()
         {
+            Console.WriteLine("Este programa calcula o imposto de renda baseado em faixas de salário" +
+                "\nDigite o salário com duas casas decimais:");
             const double OitoPorCento = 0.08 * 1000.00;
             const double DezoitoPorCento = 0.18 * 1500.00;
             double salario = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);

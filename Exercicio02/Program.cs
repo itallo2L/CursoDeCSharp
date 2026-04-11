@@ -6,6 +6,8 @@
     {
         public static void Main()
         {
+            Console.WriteLine("Este programa calcula a diferença entre o produto de A*B e o produto de C*D" +
+                "\nDigite quatro valores inteiros - A, B, C, D (um por linha):");
             int A = int.Parse(Console.ReadLine());
             int B = int.Parse(Console.ReadLine());
             int C = int.Parse(Console.ReadLine());

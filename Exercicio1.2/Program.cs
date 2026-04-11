@@ -8,7 +8,8 @@ namespace Exercicio1_2
     {
         public static void Main()
         {
-            Console.WriteLine("Entrada:");
+            Console.WriteLine("Este programa calcula a área de um círculo" +
+                "\nDigite o valor do raio do círculo:");
             string entrada = Console.ReadLine();
             double raio = double.Parse(entrada, CultureInfo.InvariantCulture);
             Console.WriteLine($"A={CalculadoraDeArea.CalcularArea(raio)}");

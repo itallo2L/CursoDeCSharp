@@ -9,6 +9,8 @@ namespace ExercicioCondicional06
         // nenhum destes intervalos, deverá ser impressa a mensagem “Fora de intervalo”.
         public static void Main()
         {
+            Console.WriteLine("Este programa determina em qual intervalo um valor se encontra" +
+                "\nDigite um valor numérico:");
             double valorQualquer = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
             if (valorQualquer >= 0.0 && valorQualquer <= 25.0)

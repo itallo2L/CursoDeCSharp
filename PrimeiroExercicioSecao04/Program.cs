@@ -5,6 +5,8 @@
     {
         public static void Main()
         {
+            Console.WriteLine("Este programa lê dados de duas pessoas e mostra quem é a mais velha" +
+                "\nDigite o nome e idade de duas pessoas (um dado por linha):");
             Pessoa pessoaUm = new Pessoa();
             Pessoa pessoaDois = new Pessoa();
 

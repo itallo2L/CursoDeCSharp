@@ -8,6 +8,8 @@ namespace ExercicioFor04
     {
         public static void Main()
         {
+            Console.WriteLine("Este programa calcula a divisão de N pares de números" +
+                "\nDigite a quantidade de pares, depois pares de números separados por espaço:");
             int entrada = int.Parse(Console.ReadLine());
 
             for (int i = 0; i < entrada; i++)

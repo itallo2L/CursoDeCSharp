@@ -10,7 +10,8 @@ namespace Exercicio2_2
     {
         public static void Main()
         {
-            Console.WriteLine("Entrada:");
+            Console.WriteLine("Este programa calcula as raízes de uma equação de segundo grau" +
+                "\nDigite três números na mesma linha (a, b e c):");
             string[] valoresABC = Console.ReadLine().Split(' ');
             Console.WriteLine(CalcularEquacaoDeSegundoGrau(valoresABC));
         }

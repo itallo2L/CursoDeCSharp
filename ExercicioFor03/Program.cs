@@ -10,6 +10,8 @@ namespace ExercicioFor03
         // peso 5.
         public static void Main()
         {
+            Console.WriteLine("Este programa calcula a média ponderada de conjuntos de três valores" +
+                "\nDigite a quantidade de casos de teste, depois para cada caso três valores:");
             int entrada = int.Parse(Console.ReadLine());
 
             for (int i = 0; i < entrada; i++)

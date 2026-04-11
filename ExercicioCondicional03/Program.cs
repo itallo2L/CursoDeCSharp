@@ -7,6 +7,8 @@
     {
         public static void Main()
         {
+            Console.WriteLine("Este programa verifica se dois números são múltiplos entre si" +
+                "\nDigite dois valores inteiros separados por espaço:");
             string[] valoresEmString = Console.ReadLine().Split(' ');
             int a = int.Parse(valoresEmString[0]);
             int b = int.Parse(valoresEmString[1]);

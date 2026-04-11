@@ -11,6 +11,8 @@ namespace ExercicioDoisSec04
     {
         public static void Main()
         {
+            Console.WriteLine("Este programa gerencia dados de um funcionário e simula aumento salarial" +
+                "\nDigite o nome, salário bruto e imposto de um funcionário (um por linha):");
             Funcionario funcionario = new Funcionario();
 
             Console.Write("Nome: ");

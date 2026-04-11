@@ -5,6 +5,8 @@
     {
         public static void Main()
         {
+            Console.WriteLine("Este programa calcula e mostra todos os divisores de um número" +
+                "\nDigite um número inteiro:");
             int entrada = int.Parse(Console.ReadLine());
 
             for (int i = 1; i <= entrada; i++)

@@ -7,7 +7,8 @@
     {
         public static void Main()
         {
-            Console.WriteLine("Entrada:");
+            Console.WriteLine("Este programa valida uma senha repetidamente até que seja correta" +
+                "\nDigite uma senha (repetidamente até acertar):");
             int senhaInserida = int.Parse(Console.ReadLine());
             Console.WriteLine(VerificarSeEhSenhaValida(senhaInserida));
         }

@@ -8,7 +8,9 @@ namespace Exercicio1_1
     {
         public static void Main()
         {
-            Console.WriteLine("Entrada:");
+            Console.WriteLine("Este programa calcula o valor total a pagar por duas peças" +
+                "\nDigite o código, quantidade e valor unitário da peça 1 (mesma linha):" +
+                "\nDepois o código, quantidade e valor unitário da peça 2 (mesma linha):");
             string entradaUm = Console.ReadLine();
             string entradaDois = Console.ReadLine();
 

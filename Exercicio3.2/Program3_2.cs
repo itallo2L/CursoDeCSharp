@@ -7,7 +7,8 @@
     {
         public static void Main()
         {
-            Console.WriteLine("Entrada:");
+            Console.WriteLine("Este programa conta quantos valores estão dentro/fora do intervalo [10, 20]" +
+                "\nDigite a quantidade de valores, depois cada valor em uma linha separada:");
             int totalDeValores = int.Parse(Console.ReadLine());
             Console.WriteLine(ObterQuantidadeDeValoresNoIntervaloEsperado(totalDeValores));
         }
