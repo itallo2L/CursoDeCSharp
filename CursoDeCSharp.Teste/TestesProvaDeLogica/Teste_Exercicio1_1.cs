@@ -47,7 +47,7 @@ namespace CursoDeCSharp.Teste.TestesProvaDeLogica
         #endregion;
 
         #region Program1_1;
-        const string CODIGO_DO_EXERCICIO = "1\n";
+        const string CodigoDoExercicio = "1\n";
 
         [Theory]
         [InlineData("12 5 15.00\n13 7 10.00\n", "145.00")] //Cada \n é lido como "Enter"
@@ -58,7 +58,7 @@ namespace CursoDeCSharp.Teste.TestesProvaDeLogica
         {
             // Arrange
             var retornoEsperado = $"VALOR A PAGAR: R$ {valorEsperado}";
-            var entradaCompleta = $"{CODIGO_DO_EXERCICIO}{entradaDeDados}";
+            var entradaCompleta = $"{CodigoDoExercicio}{entradaDeDados}";
 
             // Act
             var retornoNaTela = ExecutarPrograma(entradaCompleta, Program.Main);
@@ -77,7 +77,7 @@ namespace CursoDeCSharp.Teste.TestesProvaDeLogica
         {
             //Arrange
             var retornoEsperado = $"VALOR A PAGAR: R$ {valorEsperado}";
-            var entradaCompleta = $"{CODIGO_DO_EXERCICIO}{entradaDeDados}";
+            var entradaCompleta = $"{CodigoDoExercicio}{entradaDeDados}";
 
             //Act
             var retornoNaTela = ExecutarPrograma(entradaCompleta, Program.Main);

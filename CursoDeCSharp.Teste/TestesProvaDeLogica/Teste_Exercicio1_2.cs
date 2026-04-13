@@ -38,7 +38,7 @@ namespace CursoDeCSharp.Teste.TestesProvaDeLogica
         #endregion;
 
         #region Program1_2;
-        const string CODIGO_DO_EXERCICIO = "2\n";
+        const string CodigoDoExercicio = "2\n";
 
         [Theory]
         [InlineData("3.00", "28.2743")]
@@ -50,7 +50,7 @@ namespace CursoDeCSharp.Teste.TestesProvaDeLogica
         {
             //Arrange
             var retornoEsperado = $"A={valorEsperado}";
-            var entradaCompleta = $"{CODIGO_DO_EXERCICIO}{entradaDeDados}";
+            var entradaCompleta = $"{CodigoDoExercicio}{entradaDeDados}";
 
             //Act
             var retornoNaTela = ExecutarPrograma(entradaCompleta, Program.Main);
@@ -63,7 +63,7 @@ namespace CursoDeCSharp.Teste.TestesProvaDeLogica
         public void Program1_2_QuandoRaioNaoTiverPreenchido_DeveRetornarZero()
         {
             //Arrange
-            const string Entrada = $"{CODIGO_DO_EXERCICIO}00.00";
+            const string Entrada = $"{CodigoDoExercicio}00.00";
             const string RetornoEsperado = $"A=0.0000";
 
             //Act
