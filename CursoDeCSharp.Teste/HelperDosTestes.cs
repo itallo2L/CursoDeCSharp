@@ -2,7 +2,7 @@
 {
     public class HelperDosTestes
     {
-        private static readonly object _consoleLock = new object();
+        private static readonly object _consoleLock = new();
 
         public static string ExecutarPrograma(string entrada, Action programa)
         {
