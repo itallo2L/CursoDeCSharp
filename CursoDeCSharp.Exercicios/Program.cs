@@ -15,13 +15,16 @@ public class Program
             .Where(t => typeof(IExercicio).IsAssignableFrom(t)
                      && !t.IsInterface
                      && !t.IsAbstract)
+            .OrderBy(t => (IExercicio)Activator.CreateInstance(t)! != null 
+                        ? ((IExercicio)Activator.CreateInstance(t)!).Ordem 
+                        : int.MaxValue)
             .Select(t => (IExercicio)Activator.CreateInstance(t)!)
             .ToList();
 
         Console.WriteLine("=============================================\n");
 
         for (int i = 0; i < exercicios.Count; i++)
-            Console.WriteLine($"{i} - {exercicios[i].Nome}");
+            Console.WriteLine($"{i + 1} - {exercicios[i].Nome}");
 
         Console.WriteLine("\n=== DIGITE O CÓDIGO DO EXERCÍCIO ESPERADO ===");
         var escolha = int.Parse(Console.ReadLine()!);
@@ -29,7 +32,7 @@ public class Program
         if (!Console.IsOutputRedirected)
             Console.Clear();
         
-        var resultado = exercicios[escolha].Executar();
+        var resultado = exercicios[escolha - 1].Executar();
 
         Console.WriteLine(resultado);
     }

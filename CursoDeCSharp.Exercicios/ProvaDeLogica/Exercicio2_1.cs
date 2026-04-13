@@ -8,6 +8,7 @@ namespace CursoDeCSharp.Exercicios.ProvaDeLogica
     public class Exercicio2_1 : IExercicio
     {
         public string Nome => "Exercicio2_1";
+        public int Ordem => 3;
 
         public object Executar()
         {

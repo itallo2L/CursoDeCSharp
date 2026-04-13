@@ -6,6 +6,7 @@ namespace CursoDeCSharp.Exercicios.ExerciciosEstruturaWhile
     public class ExercicioEstruturaWhile02 : IExercicio
     {
         public string Nome => "ExercicioEstruturaWhile02";
+        public int Ordem => 28;
 
         public object Executar()
         {

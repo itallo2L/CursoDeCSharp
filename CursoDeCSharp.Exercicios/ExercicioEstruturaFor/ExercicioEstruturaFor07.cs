@@ -5,6 +5,7 @@ namespace CursoDeCSharp.Exercicios.ExercicioEstruturaFor
     public class ExercicioEstruturaFor07 : IExercicio
     {
         public string Nome => "ExercicioEstruturaFor07";
+        public int Ordem => 26;
 
         public object Executar()
         {

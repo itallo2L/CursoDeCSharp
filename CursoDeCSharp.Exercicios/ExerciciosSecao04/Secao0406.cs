@@ -6,6 +6,7 @@ namespace CursoDeCSharp.Exercicios.ExerciciosSecao04
     public class Secao0406 : IExercicio
     {
         public string Nome => "Secao0406";
+        public int Ordem => 12;
 
         public object Executar()
         {

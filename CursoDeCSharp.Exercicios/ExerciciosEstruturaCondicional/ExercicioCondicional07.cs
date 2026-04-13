@@ -8,6 +8,7 @@ namespace CursoDeCSharp.Exercicios.ExerciciosEstruturaCondicional
     public class ExercicioCondicional07 : IExercicio
     {
         public string Nome => "ExercicioCondicional07";
+        public int Ordem => 18;
 
         public object Executar()
         {

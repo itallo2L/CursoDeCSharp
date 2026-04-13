@@ -7,6 +7,7 @@ namespace CursoDeCSharp.Exercicios.ExerciciosEstruturaSequencial
     public class ExercicioSequencial03 : IExercicio
     {
         public string Nome => "ExercicioSequencial03";
+        public int Ordem => 31;
 
         public object Executar()
         {

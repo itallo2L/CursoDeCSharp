@@ -2,17 +2,33 @@
 {
     public class HelperDosTestes
     {
+        private static readonly object _consoleLock = new object();
+
         public static string ExecutarPrograma(string entrada, Action programa)
         {
-            using var entradaDeDadosPeloTeclado = new StringReader(entrada);
-            using var saidaDeDadosNaTela = new StringWriter();
+            lock (_consoleLock)
+            {
+                var entradaOriginal = Console.In;
+                var saidaOriginal = Console.Out;
 
-            Console.SetIn(entradaDeDadosPeloTeclado);
-            Console.SetOut(saidaDeDadosNaTela);
+                try
+                {
+                    using var entradaDeDadosPeloTeclado = new StringReader(entrada);
+                    using var saidaDeDadosNaTela = new StringWriter();
 
-            programa();
+                    Console.SetIn(entradaDeDadosPeloTeclado);
+                    Console.SetOut(saidaDeDadosNaTela);
 
-            return saidaDeDadosNaTela.ToString().Trim();
+                    programa();
+
+                    return saidaDeDadosNaTela.ToString().Trim();
+                }
+                finally
+                {
+                    Console.SetIn(entradaOriginal);
+                    Console.SetOut(saidaOriginal);
+                }
+            }
         }
     }
 }
