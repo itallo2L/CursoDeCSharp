@@ -1,4 +1,4 @@
-using System.Globalization;
+using CursoDeCSharp.Exercicios.Helpers;
 
 namespace CursoDeCSharp.Exercicios.ExerciciosSecao04
 {
@@ -16,41 +16,11 @@ namespace CursoDeCSharp.Exercicios.ExerciciosSecao04
             Console.Write("Nome do aluno: ");
             aluno.Nome = Console.ReadLine();
             Console.WriteLine("Digite as três notas do aluno:");
-            aluno.NotaPrimeiroTrimestre = ObterEntradaDouble();
-            aluno.NotaSegundoTrimestre = ObterEntradaDouble();
-            aluno.NotaTerceiroTrimestre = ObterEntradaDouble();
+            aluno.NotaPrimeiroTrimestre = HelperExerciciosSecao04.ObterEntradaDouble();
+            aluno.NotaSegundoTrimestre = HelperExerciciosSecao04.ObterEntradaDouble();
+            aluno.NotaTerceiroTrimestre = HelperExerciciosSecao04.ObterEntradaDouble();
 
             return aluno.CalcularNotaFinal();
-        }
-
-        private static double ObterEntradaDouble()
-        {
-            return double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-        }
-    }
-
-    public class Aluno
-    {
-        public string Nome { get; set; }
-        public double NotaPrimeiroTrimestre { get; set; }
-        public double NotaSegundoTrimestre { get; set; }
-        public double NotaTerceiroTrimestre { get; set; }
-
-        public string CalcularNotaFinal()
-        {
-            double notaFinal = (NotaPrimeiroTrimestre * 0.3) + (NotaSegundoTrimestre * 0.35) + (NotaTerceiroTrimestre * 0.35);
-            
-            string resultado = $"NOTA FINAL = {notaFinal.ToString("F2", CultureInfo.InvariantCulture)}\n";
-            
-            if (notaFinal >= 60)
-                resultado += "APROVADO";
-            else
-            {
-                resultado += "REPROVADO\n";
-                resultado += $"FALTA = {(60 - notaFinal).ToString("F2", CultureInfo.InvariantCulture)}";
-            }
-            
-            return resultado;
         }
     }
 }

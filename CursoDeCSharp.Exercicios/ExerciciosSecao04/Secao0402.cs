@@ -1,3 +1,4 @@
+using CursoDeCSharp.Exercicios.Helpers;
 using System.Globalization;
 
 namespace CursoDeCSharp.Exercicios.ExerciciosSecao04
@@ -27,11 +28,5 @@ namespace CursoDeCSharp.Exercicios.ExerciciosSecao04
             double mediaSalarial = (funcionarioUm.Salario + funcionarioDois.Salario) / 2.0;
             return $"Salário médio = {mediaSalarial.ToString("F2", CultureInfo.InvariantCulture)}";
         }
-    }
-
-    public class Funcionario
-    {
-        public string Nome { get; set; }
-        public double Salario { get; set; }
     }
 }
