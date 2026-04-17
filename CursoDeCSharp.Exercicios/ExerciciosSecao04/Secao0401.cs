@@ -1,3 +1,5 @@
+using CursoDeCSharp.Exercicios.Helpers;
+
 namespace CursoDeCSharp.Exercicios.ExerciciosSecao04
 {
     // Fazer um programa para ler os dados de duas pessoas, depois mostrar o nome da pessoa mais velha.
@@ -23,23 +25,7 @@ namespace CursoDeCSharp.Exercicios.ExerciciosSecao04
             Console.Write("Idade: ");
             pessoaDois.Idade = int.Parse(Console.ReadLine());
 
-            return ObterNomeDaPessoaMaisVelha(pessoaUm, pessoaDois);
+            return HelperExerciciosSecao04.ObterNomeDaPessoaMaisVelha(pessoaUm, pessoaDois);
         }
-
-        private static string ObterNomeDaPessoaMaisVelha(Pessoa pessoaUm, Pessoa pessoaDois)
-        {
-            if (pessoaUm.Idade > pessoaDois.Idade)
-                return $"Pessoa mais velha: {pessoaUm.Nome}";
-            else if (pessoaDois.Idade > pessoaUm.Idade)
-                return $"Pessoa mais velha: {pessoaDois.Nome}";
-
-            return "Ambas têm a mesma idade";
-        }
-    }
-
-    public class Pessoa
-    {
-        public string Nome { get; set; }
-        public int Idade { get; set; }
     }
 }
