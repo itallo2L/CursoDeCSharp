@@ -1,3 +1,5 @@
+using CursoDeCSharp.Exercicios.Helpers;
+
 namespace CursoDeCSharp.Exercicios.ExercicioEstruturaFor
 {
     // Fazer um programa para ler um número inteiro positivo N. O programa deve então mostrar na tela N linhas,
@@ -13,17 +15,7 @@ namespace CursoDeCSharp.Exercicios.ExercicioEstruturaFor
                 "\nDigite um número inteiro positivo:");
             int entrada = int.Parse(Console.ReadLine());
             
-            return ObterTabelaQuadradosCubos(entrada);
-        }
-
-        private static string ObterTabelaQuadradosCubos(int entrada)
-        {
-            string resultado = "";
-            
-            for (int i = 1; i <= entrada; i++)
-                resultado += $"{i} {i * i} {i * i * i}\n";
-            
-            return resultado.TrimEnd();
+            return HelperExerciciosEstruturaFor.ObterTabelaQuadradosCubos(entrada);
         }
     }
 }

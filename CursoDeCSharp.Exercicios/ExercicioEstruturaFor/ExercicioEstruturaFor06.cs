@@ -1,3 +1,5 @@
+using CursoDeCSharp.Exercicios.Helpers;
+
 namespace CursoDeCSharp.Exercicios.ExercicioEstruturaFor
 {
     // Ler um número inteiro N e calcular todos os seus divisores.
@@ -12,18 +14,7 @@ namespace CursoDeCSharp.Exercicios.ExercicioEstruturaFor
                 "\nDigite um número inteiro:");
             int entrada = int.Parse(Console.ReadLine());
             
-            return ObterDivisores(entrada);
-        }
-
-        private static string ObterDivisores(int entrada)
-        {
-            string resultado = "";
-            
-            for (int i = 1; i <= entrada; i++)
-                if (entrada % i == 0)
-                    resultado += $"{i}\n";
-            
-            return resultado.TrimEnd();
+            return HelperExerciciosEstruturaFor.ObterDivisores(entrada);
         }
     }
 }

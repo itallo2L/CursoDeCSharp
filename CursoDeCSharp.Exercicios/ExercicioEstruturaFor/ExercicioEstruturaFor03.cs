@@ -1,4 +1,4 @@
-using System.Globalization;
+using CursoDeCSharp.Exercicios.Helpers;
 
 namespace CursoDeCSharp.Exercicios.ExercicioEstruturaFor
 {
@@ -17,26 +17,7 @@ namespace CursoDeCSharp.Exercicios.ExercicioEstruturaFor
                 "\nDigite a quantidade de casos de teste, depois para cada caso três valores:");
             int entrada = int.Parse(Console.ReadLine());
             
-            return CalcularMediasPonderadas(entrada);
-        }
-
-        private static string CalcularMediasPonderadas(int entrada)
-        {
-            string resultado = "";
-            
-            for (int i = 0; i < entrada; i++)
-            {
-                string[] entradas = Console.ReadLine().Split(' ');
-                double x = double.Parse(entradas[0], CultureInfo.InvariantCulture);
-                double y = double.Parse(entradas[1], CultureInfo.InvariantCulture);
-                double z = double.Parse(entradas[2], CultureInfo.InvariantCulture);
-
-                double media = ((x * 2.0) + (y * 3.0) + (z * 5.0)) / 10.0;
-
-                resultado += $"{media.ToString("F1", CultureInfo.InvariantCulture)}\n";
-            }
-            
-            return resultado.TrimEnd();
+            return HelperExerciciosEstruturaFor.CalcularMediasPonderadas(entrada);
         }
     }
 }

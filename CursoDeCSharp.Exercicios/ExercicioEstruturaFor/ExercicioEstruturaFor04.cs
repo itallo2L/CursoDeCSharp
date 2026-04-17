@@ -1,4 +1,4 @@
-using System.Globalization;
+using CursoDeCSharp.Exercicios.Helpers;
 
 namespace CursoDeCSharp.Exercicios.ExercicioEstruturaFor
 {
@@ -15,26 +15,7 @@ namespace CursoDeCSharp.Exercicios.ExercicioEstruturaFor
                 "\nDigite a quantidade de pares, depois pares de números separados por espaço:");
             int entrada = int.Parse(Console.ReadLine());
             
-            return CalcularDivisoes(entrada);
-        }
-
-        private static string CalcularDivisoes(int entrada)
-        {
-            string resultado = "";
-            
-            for (int i = 0; i < entrada; i++)
-            {
-                string[] entradas = Console.ReadLine().Split(' ');
-                double a = double.Parse(entradas[0], CultureInfo.InvariantCulture);
-                double b = double.Parse(entradas[1], CultureInfo.InvariantCulture);
-
-                if (b == 0.0)
-                    resultado += "divisao impossivel\n";
-                else
-                    resultado += $"{(a / b).ToString("F1", CultureInfo.InvariantCulture)}\n";
-            }
-            
-            return resultado.TrimEnd();
+            return HelperExerciciosEstruturaFor.CalcularDivisoes(entrada);
         }
     }
 }
