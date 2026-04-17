@@ -1,6 +1,6 @@
 ﻿using System.Globalization;
 
-namespace CursoDeCSharp.Exercicios.ProvaDeLogica.Helpers
+namespace CursoDeCSharp.Exercicios.Helpers
 {
     public class Produto
     {
