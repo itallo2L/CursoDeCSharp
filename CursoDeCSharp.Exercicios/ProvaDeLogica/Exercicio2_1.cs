@@ -1,4 +1,4 @@
-﻿using Exercicio2_1;
+﻿using CursoDeCSharp.Exercicios.ProvaDeLogica.Helpers;
 using System.Globalization;
 
 namespace CursoDeCSharp.Exercicios.ProvaDeLogica

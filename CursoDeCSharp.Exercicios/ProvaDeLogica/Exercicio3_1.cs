@@ -1,3 +1,5 @@
+using CursoDeCSharp.Exercicios.ProvaDeLogica.Helpers;
+
 namespace CursoDeCSharp.Exercicios.ProvaDeLogica
 {
     // Escreva um programa que repita a leitura de uma senha até que ela seja válida.

@@ -1,6 +1,6 @@
 ﻿using System.Globalization;
 
-namespace CursoDeCSharp.Exercicios.ProvaDeLogica
+namespace CursoDeCSharp.Exercicios.ProvaDeLogica.Helpers
 {
     public static class HelperProvaDeLogica
     {

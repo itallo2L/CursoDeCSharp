@@ -1,3 +1,5 @@
+using CursoDeCSharp.Exercicios.ProvaDeLogica.Helpers;
+
 namespace CursoDeCSharp.Exercicios.ProvaDeLogica
 {
     // Leia um valor inteiro N. Este valor será a quantidade de valores inteiros X que serão lidos em seguida.

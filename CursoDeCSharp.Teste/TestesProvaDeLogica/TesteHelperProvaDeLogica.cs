@@ -1,4 +1,4 @@
-﻿using CursoDeCSharp.Exercicios.ProvaDeLogica;
+﻿using CursoDeCSharp.Exercicios.ProvaDeLogica.Helpers;
 
 namespace CursoDeCSharp.Teste.TestesProvaDeLogica
 {

@@ -1,3 +1,5 @@
+using CursoDeCSharp.Exercicios.ProvaDeLogica.Helpers;
+
 namespace CursoDeCSharp.Exercicios.ProvaDeLogica
 {
     // Ler os valores dos três coeficientes "a", "b" e "c" de uma equação do segundo grau (ax² + bx + c = 0)
