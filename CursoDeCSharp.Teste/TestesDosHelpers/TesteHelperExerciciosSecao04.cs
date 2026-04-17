@@ -1,6 +1,6 @@
 using CursoDeCSharp.Exercicios.Helpers;
 
-namespace CursoDeCSharp.Teste.TestesProvaDeLogica
+namespace CursoDeCSharp.Teste.TestesDosHelpers
 {
     public class TesteHelperExerciciosSecao04
     {

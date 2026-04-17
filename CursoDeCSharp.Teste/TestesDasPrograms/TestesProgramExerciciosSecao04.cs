@@ -1,4 +1,4 @@
-namespace CursoDeCSharp.Teste.TestesProvaDeLogica
+namespace CursoDeCSharp.Teste.TestesDasPrograms
 {
     public class TestesProgramExerciciosSecao04 : HelperDosTestes
     {
