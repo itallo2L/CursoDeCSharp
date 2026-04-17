@@ -14,25 +14,7 @@ namespace CursoDeCSharp.Exercicios.ProvaDeLogica
             Console.WriteLine($"=== {Nome} ===\nEste programa valida uma senha repetidamente até que seja correta" +
                 "\nDigite uma senha (repetidamente até acertar):" );
             int senhaInserida = int.Parse(Console.ReadLine());
-            return VerificarSeEhSenhaValida(senhaInserida);
-        }
-
-        private static string VerificarSeEhSenhaValida(int senhaInserida)
-        {
-            const int SenhaCorreta = 2002;
-            const string MensagemSenhaInvalida = "Senha Inválida";
-            const string MensagemAcessoPermitido = "Acesso Permitido";
-
-            while (senhaInserida != SenhaCorreta)
-            {
-                Console.WriteLine(MensagemSenhaInvalida);
-                senhaInserida = int.Parse(Console.ReadLine());
-
-                if (senhaInserida == SenhaCorreta)
-                    return MensagemAcessoPermitido;
-            }
-
-            return MensagemAcessoPermitido;
+            return HelperProvaDeLogica.VerificarSeEhSenhaValida(senhaInserida);
         }
     }
 }

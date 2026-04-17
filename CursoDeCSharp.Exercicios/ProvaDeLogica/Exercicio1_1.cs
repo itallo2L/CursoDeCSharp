@@ -28,7 +28,7 @@ namespace CursoDeCSharp.Exercicios.ProvaDeLogica
             int numeroDePecasDois = int.Parse(valoresPecaDois[1]);
             double valorUnitarioPecaDois = double.Parse(valoresPecaDois[2], CultureInfo.InvariantCulture);
 
-            return $"VALOR A PAGAR: R$ {CalculadoraDePecas.CalcularValorAPagar(numeroDePecasUm, numeroDePecasDois, valorUnitarioPecaUm, valorUnitarioPecaDois)}";
+            return $"VALOR A PAGAR: R$ {HelperProvaDeLogica.CalcularValorAPagar(numeroDePecasUm, numeroDePecasDois, valorUnitarioPecaUm, valorUnitarioPecaDois)}";
         }
     }
 }

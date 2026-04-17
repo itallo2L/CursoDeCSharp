@@ -13,24 +13,7 @@ namespace CursoDeCSharp.Exercicios.ProvaDeLogica
             Console.WriteLine($"=== {Nome} ===\nEste programa conta quantos valores estão dentro/fora do intervalo [10, 20]" +
                 "\nDigite a quantidade de valores, depois cada valor em uma linha separada:");
             int totalDeValores = int.Parse(Console.ReadLine());
-            return ObterQuantidadeDeValoresNoIntervaloEsperado(totalDeValores);
-        }
-
-        private static string ObterQuantidadeDeValoresNoIntervaloEsperado(int totalDeValores)
-        {
-            int quantidadeDentroDoIntervalo = 0;
-            int quantidadeForaDoIntervalo = 0;
-
-            for (int i = 0; i < totalDeValores; i++)
-            {
-                int valorX = int.Parse(Console.ReadLine());
-                if (valorX >= 10 && valorX <= 20)
-                    quantidadeDentroDoIntervalo++;
-                else
-                    quantidadeForaDoIntervalo++;
-            }
-
-            return $"{quantidadeDentroDoIntervalo} in\n{quantidadeForaDoIntervalo} out";
+            return HelperProvaDeLogica.ObterQuantidadeDeValoresNoIntervaloEsperado(totalDeValores);
         }
     }
 }
